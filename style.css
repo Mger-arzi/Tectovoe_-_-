@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+#button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.input-fields label {
+  display: block;
+  margin-top: 15px;
+}
+
+.input-fields input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 250px;
+  outline: none;
+}
+.input-fields input:hover{
+  border: 1px solid #1a6791;
+
+}
